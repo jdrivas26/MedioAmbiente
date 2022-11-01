@@ -1,0 +1,102 @@
+[
+    {
+        "categoria": "Ciencias naturalez",
+        "pregunta": "¿Como podemos cuidar el medio ambiente.?",
+        "respuesta": "Plantando arboles",
+        "incorrecta1": "ahorrando basuras",
+        "incorrecta2": "no separando las basuras",
+        "incorrecta3": "desperdiciando el agua",
+        "imagen": "./images/1.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ciencias naturalez",
+        "pregunta": "¿Desastre natural que marco la historia colombiana.?",
+        "respuesta": "Erupcion volcanica, noviembre 1985",
+        "incorrecta1": "Terremoto, 19 de septiembre 1985 ",
+        "incorrecta2": "Terremoto, 12 de enero 2010",
+        "incorrecta3": "Tsunami, 11 de marzo 2011",
+        "imagen": "./images/2.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ciencias naturalez",
+        "pregunta": "¿Es una causa de la contaminacion.?",
+        "respuesta": "Tala excesiva de arboles",
+        "incorrecta1": "Plantar arboles",
+        "incorrecta2": "Reciclar plasticos",
+        "incorrecta3": "Separar basura",
+        "imagen": "./images/3.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ciencias naturalez",
+        "pregunta": "¿Caso a respuestas del medio ambiente frente a su mal cuidado?",
+        "respuesta": "Terremoto, 11 de marzo",
+        "incorrecta1": "Terremoto, 13 de enero",
+        "incorrecta2": "Tsunami, 13 de enero",
+        "incorrecta3": "Tsunami, 11 de marzo",
+        "imagen": "./images/4.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ciencias naturalez",
+        "pregunta": "¿En que año se dio la erupcion del volcan nevado de ruiz.?",
+        "respuesta": "1985",
+        "incorrecta1": "1895",
+        "incorrecta2": "1589",
+        "incorrecta3": "1958",
+        "imagen": "./images/2.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ciencias naturalez",
+        "pregunta": "¿Fenomeno mas peligroso para el medio ambiente.?",
+        "respuesta": "Marea negra",
+        "incorrecta1": "Contaminacion y deperdicio del agua",
+        "incorrecta2": "Adelgazamiento de la capa de ozono",
+        "incorrecta3": "efecto invernadero",
+        "imagen": "./images/6.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ciencias naturalez",
+        "pregunta": "¿Que es el medio ambiente?",
+        "respuesta": "Es el espacio en el que se desarrolla la vida de los distintos organismos favorenciendo su interaccion",
+        "incorrecta1": "es el espacio en el que se desarrolla la vida de los distintos organos",
+        "incorrecta2": "es el espacio en el que no se desarrolla la vida de los distintos organos",
+        "incorrecta3": "es el espacio en que se desarrolla la vida de los distintos organos favoreciendo su interaccion",
+        "imagen": "./images/7.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ciencias naturalez",
+        "pregunta": "¿Que debes hacer en caso de que veas a personas contaminando el medio ambiente?",
+        "respuesta": "Denunciar en la policia ambiental",
+        "incorrecta1": "Presentar una denuncia ante la fiscalia general",
+        "incorrecta2": "Narrar los hechos a la comunidad y entre todos tomar una decision",
+        "incorrecta3": "Ninguna de las anteriores",
+        "imagen": "./images/8.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ciencias naturalez",
+        "pregunta": "¿Que es la marea negra?",
+        "respuesta": "Derrame de petroleo",
+        "incorrecta1": "pesca excesiva",
+        "incorrecta2": "Contaminacion con desechos y basura",
+        "incorrecta3": "Aguas negras",
+        "imagen": "./images/9.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ciencias naturalez",
+        "pregunta": "¿Quien es el mayor ser dañino del medio ambiente?",
+        "respuesta": "El ser humano",
+        "incorrecta1": "Los animales",
+        "incorrecta2": "El ecosistema",
+        "incorrecta3": "Los fenomenos naturales",
+        "imagen": "./images/10.jpg",
+        "objectFit": "cover"
+    }
+]

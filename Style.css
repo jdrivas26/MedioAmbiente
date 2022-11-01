@@ -1,0 +1,510 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anton', Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.menu {
+    background-color: #15ff00;
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+    position: fixed;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;
+}
+
+.menu_items {
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.menu_items li {
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menu_items a {
+    padding: 7px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: white;
+}
+
+.menu_items li:hover,
+li.active {
+    background-color: rgba(0, 0, 0, .3);
+    transition: .5s;
+}
+
+.btn_menu {
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+ul.show {
+    top: 65px;
+}
+
+@media screen and (min-width:859px) {
+    .logo {
+        font-size: 30px;
+        padding-left: 35px;
+    }
+
+    .menu_items li a {
+        font-size: 16px;
+    }
+
+    main {
+        height: 80%;
+        display: flex;
+        margin: 5vh 5vh;
+        padding: 5px 0px 5px 10px;
+
+    }
+
+    .seccion1 {
+        border-right: 0.5px solid black;
+        width: 80%;
+    }
+
+    .seccion2 {
+        padding: 0;
+        width: 20%;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 7vh;
+        color: #15ff00;
+    }
+
+    .titleJ {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 10vh;
+        color: #15ff00;
+    }
+
+    .imgTitle {
+        justify-content: center;
+        align-items: center;
+        width: 330px;
+        height: 300px;
+        margin-left: 5px;
+        margin-top: 100px;
+    }
+
+    .cuerpo {
+        text-align: justify;
+        margin-top: 70px;
+        font-size: 30px;
+        padding-right: 30px;
+    }
+
+    .tabla_contenido {
+        border: 1px solid black;
+        margin: 60px;
+        padding: 10px 20px;
+        width: 90vh;
+    }
+
+    .titulo2 {
+        color: #15ff00;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .lista {
+        margin: 20px 5px 0 10px;
+        padding-left: 15px;
+        font-size: 30px;
+
+    }
+
+    li {
+        margin: 10px 0 10px 0;
+    }
+
+    .contenido {
+        margin-left: 30px;
+    }
+
+    .contenido li {
+        font-size: 45px;
+    }
+
+    .seccion1 #image1 {
+        display: none;
+    }
+
+    .cuerpo2 {
+        text-align: justify;
+        margin-top: 5px;
+        font-size: 28px;
+        padding-right: 30px;
+    }
+
+    .contenido ul {
+        margin-left: 50px;
+    }
+
+    .titulo1 {
+        color: #15ff00;
+    }
+
+    .contenido h1 {
+        margin-top: 30px;
+    }
+
+    .contenido .subtitulo {
+        font-size: 40px;
+    }
+
+    .contenido .maltrato {
+        font-size: 30px;
+    }
+
+    .sucess {
+        margin-left: 20px;
+    }
+
+    .sucess tr {
+        display: flex;
+        gap: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    .cuadro {
+        padding: 10px;
+        border: 1px solid black;
+        text-align: center;
+        width: 350px;
+    }
+
+    #desastre1 {
+        width: 300px;
+    }
+
+    .sucess a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #desastre2 {
+        width: 300px;
+        height: 223px;
+    }
+
+    #desastre3 {
+        width: 250px;
+        height: 223px;
+    }
+
+    #desastre4 {
+        width: 300px;
+        height: 205px;
+    }
+
+    #desastre6 {
+        width: 300px;
+        height: 222px;
+    }
+
+    .imagenes {
+        display: flex;
+        flex-direction: column;
+        gap: 300px;
+    }
+
+    .juegos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        margin: 40px 100px;
+        gap: 80px;
+    }
+
+    .juegos section {
+        padding: 20px 0px;
+        width: 50vh;
+        height: 45vh;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .juegos section:hover {
+        padding: 0;
+        transition: all 0.35s;
+    }
+
+    .juegos section a {
+        text-decoration: none;
+        opacity: 0.5;
+    }
+
+    .juegos section a img {
+        border-radius: 20px;
+        width: 45vh;
+    }
+
+    .juegos section p {
+        border-top: 0.5px black solid;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        margin: 10px;
+    }
+
+    .juegos section a:hover {
+        opacity: 1;
+    }
+
+    .juego2 img {
+        width: 100px;
+        height: 240px;
+    }
+
+    .juego3 img {
+        width: 100px;
+        height: 240px;
+    }
+
+}
+
+@media screen and (max-width:858px) {
+    .menu {
+        height: 65px;
+    }
+
+    .btn_menu {
+        display: inline-flex;
+    }
+
+    .menu_items {
+        position: fixed;
+        width: 100vw;
+        height: calc(100% - 65px);
+        background: #414141;
+        top: -100vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+    }
+
+    .menu_items li {
+        margin: 30px 0 0 0;
+        line-height: 30px;
+    }
+
+    .menu_items li:hover {
+        background: none;
+    }
+
+    .menu_items li a {
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .menu_items li a:hover {
+        color: #15ff00;
+    }
+
+    .logo {
+        font-size: 25px;
+        padding-left: 35px;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 5vh;
+        color: #15ff00;
+    }
+
+    .titleJ {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 8vh;
+        color: #15ff00;
+    }
+
+    .main {
+        margin: 5px;
+        padding: 100px;
+    }
+
+
+    .seccion1 {
+        width: 100%;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .seccion2 {
+        display: none;
+    }
+
+    .tabla_contenido {
+        margin: 10px;
+        border: 1px solid black;
+        padding: 5px 0px 5px 25px;
+        width: 90%;
+    }
+
+    .contenido {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+
+    .lista {
+        margin-top: 10px
+    }
+
+    .contenido h1 {
+        margin-top: 15px;
+        margin-bottom: 3px;
+    }
+
+    .sucess {
+        width: 100%;
+        height: 50px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 10px;
+        color: black;
+    }
+
+    .cuadro {
+        padding: 3px;
+        border: 1px solid black;
+        text-align: center;
+        width: 100px;
+    }
+
+    #desastre1 {
+        width: 50px;
+        height: 40px;
+    }
+
+    #desastre3 {
+        width: 50px;
+        height: 60px;
+    }
+
+    #desastre2 {
+        width: 70px;
+        height: 60px;
+    }
+
+    .sucess tr {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #desastre4 {
+        width: 70px;
+        height: 50px;
+    }
+
+    #desastre6 {
+        width: 70px;
+        height: 60px;
+    }
+
+    .juegos {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+
+    .juegos section {
+
+        text-align: center;
+        width: 42vh;
+        height: 42vh;
+        margin-bottom: 50px;
+    }
+
+    .juegos a {
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    .juegos a p {
+        border-top: 0.5px solid black;
+    }
+
+    .juegos a img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    #image1 {
+        width: 100%;
+        height: 15hv;
+    }
+
+    .juego2 img {
+        width: 100px;
+        height: 220px;
+    }
+
+    .juego3 img {
+        width: 100px;
+        height: 220px;
+    }
+
+}
+
+
+@media screen and (max-width:858px) and (orientation:landscape) {
+
+    .menu li {
+        margin: 5px 0 0 0;
+    }
+
+    .menu_items {
+        overflow: scroll;
+        height: calc(100%-65px);
+    }
+
+}

@@ -1,0 +1,237 @@
+@media screen and (max-width:858px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: rgb(196, 255, 25);
+        background: linear-gradient(90deg, rgba(196, 255, 25, 1) 0%, rgba(105, 194, 30, 1) 44%, rgba(92, 201, 48, 1) 65%, rgba(0, 254, 183, 0.8547794117647058) 100%);
+        background-repeat: no-repeat;
+        font-family: sans-serif;
+        color: white;
+        width: 100%;
+        height: 930px;
+    }
+
+    main {
+        margin-top: 30px;
+        width: 100%;
+        height: 55vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .seccion1 {
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 0 10px 10px 10px;
+        border-radius: 8px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .seccion2 {
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 90%;
+        height: 23vh;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        padding: 0 5px;
+        font-size: 8.8px;
+        text-overflow: bold;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px
+    }
+
+    .estadisticas {
+        margin-top: 10px;
+        border: 1px solid white;
+        height: 6vh;
+        border-radius: 5px;
+        padding: 2px 5px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    button {
+        height: 10vh;
+        width: 10vh;
+        font-size: 4vh;
+        color: white;
+        font-weight: bold;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #btn {
+        display: none;
+        width: 7em;
+        height: 1.8em;
+        font-size: 25px;
+        cursor: pointer;
+        border: none;
+        border-radius: 15px;
+        color: white;
+        background: linear-gradient(90deg, rgb(137, 13, 209), rgb(150, 7, 179), rgb(241, 6, 163));
+        margin-left: 30%;
+    }
+    .btn_back {
+        text-decoration: none;
+        margin: 20px 0 0 20px;
+        height: 8vh;
+        width: 4vw;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        opacity: 0.6;
+      }
+      .btn_back:hover {
+        opacity: 1;
+        transform: scale(1.5);
+        transition: all 0.5s;
+      }
+}
+
+img {
+    width: 75%;
+}
+
+/*/////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////*/
+
+@media screen and (min-width:859px) {
+    body {
+        background: rgb(196, 255, 25);
+        background: linear-gradient(90deg, rgba(196, 255, 25, 1) 0%, rgba(105, 194, 30, 1) 44%, rgba(92, 201, 48, 1) 65%, rgba(0, 254, 183, 0.8547794117647058) 100%);
+        background-repeat: no-repeat;
+        font-family: sans-serif;
+        color: white;
+    }
+
+    main {
+        width: 1000px;
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .seccion1 {
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 0 10px 10px 10px;
+        border-radius: 8px;
+    }
+
+    .seccion2 {
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 50vh;
+        height: 75vh;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        padding: 0 20px;
+        font-size: 2.8vh;
+
+    }
+
+    .estadisticas {
+        border: 1px solid white;
+        height: 21vh;
+        border-radius: 8px;
+        padding: 8px 20px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 5vh;
+        margin: 5px;
+    }
+
+    button {
+        height: 18vh;
+        width: 17vh;
+        font-size: 8vh;
+        color: white;
+        font-weight: bold;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #btn {
+        display: none;
+        width: 10em;
+        height: 2em;
+        font-size: 30px;
+        cursor: pointer;
+        border: none;
+        border-radius: 15px;
+        color: white;
+        background: linear-gradient(90deg, rgb(137, 13, 209), rgb(150, 7, 179), rgb(241, 6, 163));
+        margin-left: 30%;
+    }
+    .btn_back {
+        text-decoration: none;
+        margin: 20px 0 0 20px;
+        height: 8vh;
+        width: 4vw;
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        font-size: 50px;
+        opacity: 0.6;
+      }
+    
+      .btn_back:hover {
+        opacity: 1;
+        transform: scale(1.5);
+        transition: all 0.5s;
+      }
+}

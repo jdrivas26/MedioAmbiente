@@ -1,0 +1,42 @@
+body{
+    width: 960px;
+    margin: 0 auto;
+}
+h1{
+    text-align:center;
+}
+#pantalla{
+    border: groove 8px gold;
+    background: lightgreen;
+}
+#boton{
+    background-color:red;
+    color:white;
+    font-size :20px;
+    text-align:center;
+    font-weight:bolder;
+    padding :3px;
+    border:solid 2px black;
+}
+#boton:hover{
+    background-color: lightcoral;
+    font-size: 22px;
+    border: groove 4px red;
+}
+.btn_back {
+    text-decoration: none;
+    margin: 0 ;
+    height: 8vh;
+    width: 4vw;
+    text-align: start;
+    font-size: 50px;
+    color: black;
+    font-size: 50px;
+    opacity: 0.6;
+  }
+
+  .btn_back:hover {
+    opacity: 1;
+    transform: scale(1.5);
+    transition: all 0.5s;
+  }
